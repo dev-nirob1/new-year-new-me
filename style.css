@@ -59,7 +59,7 @@ header {
 .banner-header {
     font-size: 55px;
     margin-bottom: 20px;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .banner-description {
@@ -113,7 +113,6 @@ main {
 
 .right .point {
     margin-top: 25px;
-    margin-bottom: 15px;
     font-size: 16px;
     color: #444343;
 }
@@ -159,9 +158,9 @@ main {
     margin-top: 100px;
     border-radius: 10px;
     background-image: url("resources/images/gradient1.png"), url("resources/images/watch.png");
-    background-repeat: no-repeat, no-repeat;
+    background-repeat: no-repeat;
     background-position: right;
-    background-size: cover, cover;
+    background-size: cover;
 }
 
 .positive {
@@ -180,19 +179,18 @@ footer {
     margin-top: 130px;
     color: #fff;
     background-color: #151414;
-
 }
 
-.footer-flex{
+.footer-flex {
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    width: 1100px;
     margin: 0 auto;
 }
 
 .future {
-    width: 570px;
-    margin: 110px 150px 110px 0;
+    width: 550px;
+    margin: 130px 150px 110px 50px;
 }
 
 .future-header {
@@ -222,9 +220,9 @@ footer {
 }
 
 .subscribe {
-    width: 570px;
+    width: 550px;
     margin: 130px 0;
-    /* padding: 130px 0 130px 100px; */
+    padding-left: 60px;
 }
 
 .subscribe .sub-header {
